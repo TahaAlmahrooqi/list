@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "file.php");
+xhr.open("GET", "index.php");
 xhr.send();
 
 xhr.onreadystatechange = function() {
